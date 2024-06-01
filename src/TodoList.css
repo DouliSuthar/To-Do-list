@@ -1,0 +1,107 @@
+.todo-list-container {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .input-container {
+    display: block;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .filters button {
+    margin-right: 10px;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .filters button:hover {
+    background-color: #138496;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+  }
+  
+  .task-list li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #5aa6f7;
+  }
+  
+  .task-actions button:hover {
+    color: #b6d5f5;
+  }
+  
+  .delete-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .delete-buttons button {
+    background-color: #fc4f61;
+  }
+  
+  .delete-buttons button:hover {
+    background-color: #fd1b32;
+  }
+  
